@@ -1,3 +1,7 @@
+* {
+	font-size: 64px;
+}
+
 html, body {
 	width: 100%;
 	margin: 0;
@@ -25,12 +29,19 @@ td {
 	background-color: #F5F5F5;
 }
 
-input {
+.plusButton, #newPlayerButton, #newPlayerText {
 	display: block;
 	width: 100%;
 	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	vertical-align: center;
 	background-color: transparent;
 	border: none;
+}
+
+#newPlayerText, #newPlayerButton {
+	border: 1px solid black;
+}
+
+#sumField {
+	border-top: 9px double black;
 }
