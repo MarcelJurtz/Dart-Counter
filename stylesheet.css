@@ -1,0 +1,36 @@
+html, body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	width: 100%;
+}
+
+thead td {
+	font-weight: bold;
+}
+
+td {
+	width: 30%;
+	text-align: center;
+}
+
+.odd {
+	background-color: #FFFFFF;
+}
+
+.even {
+	background-color: #F5F5F5;
+}
+
+input {
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: transparent;
+	border: none;
+}
