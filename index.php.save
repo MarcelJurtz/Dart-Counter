@@ -1,0 +1,23 @@
+<?php
+	$dbHost = 'localhost';
+	$dbUser = 'root';
+	$dbPassword = 'c16wi71ft';
+	$dbTable = 'dartDB';
+
+	echo $dbHost . ' - ' . $dbUser . ' - ' . $dbPassword . ' - ' . $dbTable;
+	$connection = mysqli_connect($dbHost, $dbUser, $dbPassword, $dbTable);
+
+	if(!$connection) {
+		echo 'ERROR DB';
+	}
+
+	$request = "SELECT * FROM stats";
+
+	$results = mysqli_query($connection, $request);
+
+	//$mysqli_close($connection);
+
+	while($row = $mysqli_fetch_assoc($results)) {
+		echo $row['NAME'] . '<br/>';
+	}
+?>

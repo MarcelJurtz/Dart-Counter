@@ -74,9 +74,12 @@
 				echo '<td>' . $fails . '</td>';
 				echo '<td>' . number_format($cash, 2, ",", ".") . ' €</td>';
 
+				// Confirm-String
+				$conf = "'" . $name . " erhöhen?'";
+
 				// Buttons to add / reduce
 				echo '<td>
-						<form action="index.php" method="POST">
+						<form action="index.php" method="POST" onsubmit="return confirm('.$conf.')";>
 							<input type="submit" value="+" class="plusButton" name=add_'.$name.' />
 						</form>
 					</td>';
@@ -93,7 +96,7 @@
 			echo '</tbody></table>';
 
 			?>
-			<form action="index.php" method="POST">
+			<form action="index.php" method="POST" onsubmit="return confirm('Neuen Benutzer hinzufügen?')">
 				<table>
 					<tbody>
 						<tr>
@@ -107,5 +110,8 @@
 					</tbody>
 				</table>
 			</form>
+			<div class="aCenter">
+				<a href="index.php">Neu laden</a>
+			</div>
 	</body>
 </html>
