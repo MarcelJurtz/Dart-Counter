@@ -7,6 +7,7 @@
 	</head>
 	<body>
 		<?php
+			// Have fun with the credentials ¯\_(ツ)_/¯
 			$dbHost = 'localhost';
 			$dbUser = 'root';
 			$dbPassword = 'c16wi71ft';
@@ -26,7 +27,7 @@
 				}
 			}
 
-			// Checkl if Button was pressed
+			// Check if Button was pressed
 			else if(count($_POST) == 1) {
 				$name = array_search('+',$_POST);
 				$name = substr($name, 4);
