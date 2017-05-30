@@ -1,7 +1,7 @@
 # Dart Counter
 
 
-![Completed](https://raw.githubusercontent.com/MarcelJurtz/ProjectStatusIcons/master/Completed.png)](https://github.com/MarcelJurtz/ProjectStatusIcons)
+[![Icon Completed](https://raw.githubusercontent.com/MarcelJurtz/ProjectStatusIcons/master/Completed.png)](https://github.com/MarcelJurtz/ProjectStatusIcons)
 
 Simplistic PHP website for counting failed dart throws.  
 Each miss will cost the person 5 cents, the website is there to log the misses.
