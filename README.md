@@ -15,3 +15,7 @@ Each miss will cost the person 5 cents, the website is there to log the misses.
 * Backend-administration via mySQL
 * Frontend via website (CSS for mobile devices)
 * Alternative frontend via android-app
+
+## License
+
+MIT
